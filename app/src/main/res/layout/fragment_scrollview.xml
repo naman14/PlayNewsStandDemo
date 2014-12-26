@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.naman14.newsstand.NotifyingScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/scrollview"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/header_height"
+            />
+
+        <android.support.v7.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true"
+            android:id="@+id/cardView"
+
+            android:layout_margin="10dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+
+                <LinearLayout
+                    android:id="@+id/layout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/title"
+
+                        android:textStyle="bold"
+                        android:paddingLeft="15dp"
+                        android:textColor="#ffffff"
+                        android:textSize="30sp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="15dp"
+                        android:textStyle="italic"
+                        android:id="@+id/titleShortDescription"
+                        android:textColor="#ffffff"
+
+                        android:textSize="19sp"/>
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_marginTop="10dp">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:id="@+id/titleImage"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|center_horizontal"
+                            android:scaleType="center"
+                            android:src="@drawable/photo1" />
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/titleDescription"
+                    android:textColor="#000000"
+                    android:padding="10dp"
+                    android:textSize="17sp" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true"
+
+
+            android:layout_margin="10dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+
+                <LinearLayout
+                    android:id="@+id/layout2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="#424242">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Contact"
+                        android:textStyle="bold"
+                        android:paddingLeft="15dp"
+                        android:textColor="#ffffff"
+                        android:textSize="30sp"
+                        android:paddingBottom="5dp"/>
+                </LinearLayout>
+
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Naman Dwivedi"
+                                android:textStyle="italic"
+                                android:padding="15dp"
+                                android:id="@+id/textContact"
+                                android:textColor="#000000"
+                                android:textSize="25sp"/>
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="namandwivedi14@gmail.com"
+                        android:id="@+id/textEmail"
+                        android:textStyle="normal"
+                        android:padding="15dp"
+                        android:textSize="20sp"
+                        android:textColor="#000000"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Send Email"
+                    android:id="@+id/textSendEmail"
+                    android:textColor="#fea016"
+                    android:padding="15dp"
+                    android:textSize="20sp" />
+            </LinearLayout>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+    </LinearLayout>
+
+</com.naman14.newsstand.NotifyingScrollView>
