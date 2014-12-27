@@ -35,8 +35,9 @@
             android:layout_height="48dip"
             android:layout_gravity="bottom"
             android:textColor="#ffffff"
-
+            app:pstsDividerColor="@android:color/transparent"
             app:pstsIndicatorColor="#ffffff"
+            app:pstsIndicatorHeight="4dip"
 
             android:background="@android:color/transparent" />
     </FrameLayout>
