@@ -8,6 +8,10 @@ This demo app uses a parallax header with Ken Burns Effect, a ViewPager and Frag
 ![alt tag](https://raw.githubusercontent.com/naman14/PlayNewsStandDemo/master/graphics/screenshot1.png)
 ![alt tag](https://raw.githubusercontent.com/naman14/PlayNewsStandDemo/master/graphics/screenshot2.png)
 
+Google Play Link
+=================
+https://play.google.com/store/apps/details?id=com.naman14.newsstand
+
 Credits
 =================
 Thanks to kmshack(http://www.kmshack.kr) for the original Android-ParallaxHeaderViewPager demo app.I made this on top of that for supporting scrollviews easily.
