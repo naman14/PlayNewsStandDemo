@@ -8,8 +8,8 @@ android {
         applicationId "com.naman14.newsstand"
         minSdkVersion 14
         targetSdkVersion 21
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "1.1"
     }
     buildTypes {
         release {
@@ -24,6 +24,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:21.0.+'
     compile 'com.android.support:cardview-v7:21+'
     compile 'com.flaviofaria:kenburnsview:1.0.5'
-    compile 'com.astuetz:pagerslidingtabstrip:1.0.1'
+    compile 'com.jpardogo.materialtabstrip:library:1.0.6'
     compile 'com.nineoldandroids:library:2.4.0'
 }
